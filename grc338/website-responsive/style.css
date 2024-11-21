@@ -77,7 +77,7 @@ nav ul {
 nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
-	margin-bottom: 6em;
+	margin-bottom: 2em;
 	}
 nav ul li a {
 	color: rgb(255,255,0);
@@ -96,7 +96,7 @@ ul li 	{
 }
 
 figure {
-	margin-bottom: 900em;
+	margin-bottom: 2em;
 }
 
 main.menu ul {
