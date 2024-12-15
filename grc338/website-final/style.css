@@ -93,14 +93,14 @@ nav ul li {
 }
 
 nav ul li a {
-	color: rgb(255, 255, 255);
-	background-color: rgb(149, 134, 107);
+	color: rgb(128, 115, 92);
+	background-color: rgb(215, 206, 189);
 	padding: 0.5em 0.5em 0.5em;
 }
 
 nav ul li.selected a {
-	color: rgb(255, 255, 255);
-	background-color: rgb(124, 112, 89);
+	color: rgb(0, 0, 0);
+	background-color: rgb(215, 206, 189);
 	padding: 0.5em 0.5em 0.5em;
 }
 
