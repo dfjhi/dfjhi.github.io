@@ -68,6 +68,7 @@ figcaption {
 
 aside {
 	background-color: rgb(203, 207, 255, 1);
+	padding: 1em;
 }
 
 nav ul {
