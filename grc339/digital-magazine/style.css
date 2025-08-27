@@ -90,7 +90,9 @@ img {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: kepler-std light, serif;
+  font-style: normal;
+  background-color: rgb(237, 237, 237);
 }
 
 div.container,
@@ -100,7 +102,7 @@ div.home-container {
 }
 
 h1 {
-  width: 6em;
+  width: 25em;
   margin-top: 1em;
 }
 
@@ -110,8 +112,10 @@ nav {
 }
 
 h2 {
-  font-family: serif;
-  font-weight: bold;
+  font-family: kepler-std-medium, serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 section {
@@ -125,7 +129,7 @@ p {
 }
 
 h2 {
-  color: #579;
+  color: rgb(54, 54, 54);
 }
 
 article h2 {
@@ -147,9 +151,10 @@ section.secondary h2 {
 }
 
 aside {
-  background: #cccfff;
+  background: rgb(179, 206, 217);
   padding: 1em 0.5em;
   margin-top: 1em;
+  color: rgb(80, 80, 80);
 }
 
 aside section.secondary h2 {
@@ -157,7 +162,7 @@ aside section.secondary h2 {
 }
 
 section.tertiary h2 {
-  border-top: 1px solid #579;
+  border-top: 1.5px solid rgb(94, 136, 153);
   padding-top: 0.5em;
 }
 
@@ -168,20 +173,25 @@ a {
 
 nav ul li {
   list-style-type: none;
+  margin-right: 2em;
+  margin-bottom: 2em;
 }
 
 nav ul li a {
-  font-weight: bold;
-  color: #579;
+  color: rgb(79, 79, 79);
+  font-family: "altesse-std-64pt", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2em;
 }
 
 nav ul li a:hover {
-  color: #f00;
+  color: rgb(94, 136, 153);
 }
 
 footer {
   width: 100%;
-  background: #579;
+  background: rgb(94, 136, 153);
   padding: 0.5em 0;
   color: #eee;
   box-sizing: border-box;
@@ -259,10 +269,12 @@ footer {
   section.mainstory a figure {
     flex: 1 0 12em;
     display: flex;
+    overflow: hidden;
   }
 
   section.mainstory a figure img {
     object-fit: cover;
+    display: block;
   }
 
   section.mainstory a h2 {
@@ -290,6 +302,7 @@ footer {
 
   section.secondary a figure img {
     object-fit: cover;
+    overflow: hidden;
   }
 
   section.secondary a h2 {
