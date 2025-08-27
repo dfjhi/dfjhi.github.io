@@ -197,6 +197,16 @@ footer {
   box-sizing: border-box;
 }
 
+article img,
+section.mainstory a figure img,
+aside a img,
+section.secondary a figure img {
+  width: 100;
+  aspect-ratio: 13/15;
+  object-fit: cover;
+  display: block;
+}
+
 @media only screen and (min-width: 40em) {
   nav ul li {
     display: inline;
