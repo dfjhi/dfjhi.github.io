@@ -109,7 +109,7 @@ footer {
   width: 100%;
   background: rgb(94, 136, 153);
   padding: 0.5em 0;
-  color: #eee;
+  color: rgb(237, 237, 237);
   box-sizing: border-box;
 }
 
@@ -191,7 +191,7 @@ main.newsletter input[type="checkbox"] {
 main.newsletter button {
   padding: 0.75em 1.5em;
   background-color: rgb(94, 136, 153);
-  color: white;
+  color: rgb(237, 237, 237);
   font-weight: bold;
   border: none;
   border-radius: 0.25em;
