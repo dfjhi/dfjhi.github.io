@@ -78,7 +78,7 @@ aside section.secondary h2 {
 }
 
 section.tertiary h2 {
-  border-top: 1.5px solid rgb(94, 136, 153);
+  border-top: 1.5px solid rgb(132, 147, 153);
   padding-top: 0.5em;
 }
 
@@ -102,12 +102,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: rgb(94, 136, 153);
+  color: rgb(132, 147, 153);
 }
 
 footer {
   width: 100%;
-  background: rgb(94, 136, 153);
+  background: rgb(132, 147, 153);
   padding: 0.5em 0;
   color: rgb(237, 237, 237);
   box-sizing: border-box;
@@ -124,7 +124,7 @@ section.secondary a figure img {
 }
 
 .subscribe-link {
-  color: rgb(94, 136, 153);
+  color: rgb(132, 147, 153);
   font-family: "altesse-std-64pt", sans-serif;
   font-weight: 800;
   font-style: normal;
@@ -178,7 +178,7 @@ main.newsletter input[type="text"],
 main.newsletter input[type="email"] {
   width: 100%;
   padding: 0.5em;
-  border: 1px solid rgb(94, 136, 153);
+  border: 1px solid rgb(132, 147, 153);
   border-radius: 0.25em;
   font-size: 1em;
   box-sizing: border-box;
@@ -190,7 +190,7 @@ main.newsletter input[type="checkbox"] {
 
 main.newsletter button {
   padding: 0.75em 1.5em;
-  background-color: rgb(94, 136, 153);
+  background-color: rgb(132, 147, 153);
   color: rgb(237, 237, 237);
   font-weight: bold;
   border: none;
